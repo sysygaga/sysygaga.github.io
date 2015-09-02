@@ -8,27 +8,26 @@ margin-bottom: 15px;
 
 /*	#slogan*/
 
-body{
+body {
 background-color: #bce4e6;
 }
 
-div{
+div {
 	text-align: center;
 }
-img{
-	width=“480px"
+img {
+ background-size: 400px;
 	padding-bottom="25px"
 }
 
-h1{	
-	font-family: "Roboto", sans-serif;
-	font-weight: thin;
-	font-size: 280px;
+h1 {	
+	font-family: "Libre-Baskerville", serif;
+	font-size: 260px;
 	text-align: center;
 	color: #FFF;
 }
 
-hr{
+hr {
 	margin-left: 150px;
 	margin-right: 150px;
 }
@@ -45,7 +44,8 @@ header{
 
 
 h2{	
-	font-family: "Roboto", sans-serif;
+/*	font-family: "Roboto", sans-serif;*/
+	font-family: "Libre-Baskerville", serif;
 	font-weight: lighter;
 	text-align: center;
 	font-size: 50px;
@@ -61,15 +61,17 @@ h3{
 
 
 h4{
-	font-family: "Roboto", sans-serif;
+	font-family: "Libre-Baskerville", serif;
 	font-weight: lighter;
+	font-style: italic;
 	font-size: 46px;
 	text-align: center;
 }
 
 h6{
 	font-family: "Roboto", sans-serif;
-	font-weight: light;
+	font-weight: lighter;
+	line-height: 1em;
 	font-size: 20px;
 	text-align: center;
 
@@ -83,14 +85,15 @@ p{
 	text-align: center;
 	margin-left: 150px;
 	margin-right: 150px;
+	line-height: 1.5em;
 }
 
 
 ul{
 	font-family: "Roboto", sans-serif;
-		font-weight: light;
+		font-weight: lighter;
 		font-size: 20px;
-		line-height: 16px;
+	line-height: 1em;
 		text-align: center;
 	list-style-type: none;
 }
