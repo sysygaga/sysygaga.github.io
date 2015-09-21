@@ -1,0 +1,260 @@
+body {
+		font-family: "Libre Baskerville", serif;
+		font-weight: 400;
+		font-size: 12px;
+		line-height: 1.5em;
+		text-align: left;
+	  	background-color: #fff;
+	  	padding: 20px;
+	 	margin: 20px;
+}
+
+
+#logo {
+	display: block;
+	float: left;
+	background-size: 280px;
+	text-align: left;
+	max-width: 150px;
+	padding-right: 130px;
+	padding-bottom: 65px;
+	margin: 0px;
+}
+
+/*#wrapper {
+	width: 1080px;
+	margin: 0 auto;
+}*/
+
+
+nav {
+		text-decoration: none;
+		color: #000000;
+		background-color: #fff;
+		font-size: 17px;
+		width: auto;
+		font-family: "Oswald", sans-serif;
+		font-weight: 400;
+		letter-spacing: .5px;
+		text-align: center;	
+}
+
+
+a {	
+	color: #000;
+	text-decoration: none;
+	font-family: "Oswald", sans-serif;
+	font-weight: 400;
+	letter-spacing: 1px;
+	padding: 15px;
+	text-align: center;	
+	display: block;
+	float: left;
+}
+
+
+/*.clearfix:after 
+	{
+	visibility: hidden;
+	display: block;
+	font-size: 0;
+	content: " ";
+	clear: both;
+	height: 0;
+}*/
+
+
+a:hover { 
+  background-color: #fff; 
+}
+
+
+
+#date {
+		font-family: "Oswald", sans-serif;
+		font-size: 10px;
+		font-weight: 400;
+		text-align: center;
+		display: block;
+		letter-spacing: 2px;
+		text-align: left;
+		padding: 0px;
+	 	margin:0px;
+	 	float: left;
+}
+
+
+h2,h3 {
+		font-family: "Libre Baskerville", serif;
+		font-size: 19px;
+		font-weight: 400;
+		padding: 0px;
+		padding-bottom: 1em;
+	 	margin: 0px;
+		text-align: left;
+		/*text-indent: 30px;*/
+		display: block;
+/*		float: left;
+		clear: both;*/
+}
+
+
+
+span {	font-family: "Oswald", sans-serif;
+		font-size: 15px;
+		font-weight: 400;
+		display: inline;
+		letter-spacing: .5px;
+}
+	
+
+/*#section {
+		display: block;
+		text-align: left;
+		float: left;
+		clear: both;
+}*/
+
+.blog {
+		display: block;
+		text-align: left;
+		float: left;
+		/*clear: both;*/
+/*				font-family: "Libre Baskerville", serif;
+				font-weight: 400;
+				font-size: 14px;
+				line-height: 1.5em;
+				text-align: left;
+			  	background-color: #fff;
+			  	padding: 0px;
+			 	margin: 0px;*/
+	}
+
+
+
+#entrya {
+		font-family: "Libre Baskerville", serif;
+		font-weight: 400;
+		font-size: 16px;
+		line-height: 1.75em;
+		letter-spacing: .5px;
+		text-align: left;
+	  	background-color: #fff;
+	  	padding: 0px;
+	 	margin: 0px;
+		display: block;
+		float: left;
+		clear: both;
+
+}
+
+
+#entryb {
+		font-family: "Libre Baskerville", serif;
+		font-weight: 400;
+		font-size: 13px;
+		line-height: 1.75em;
+		letter-spacing: .5px;
+		text-align: left;
+	  	background-color: #fff;
+	  	padding: 0px;
+	 	margin: 0px;
+		display: block;
+		float: left;
+		clear: both;
+}
+
+.small_blog {
+		font-family: "Libre Baskerville", serif;
+		font-weight: 400;
+		font-size: 13px;
+		letter-spacing: 0.5px;
+		line-height: 1.5em;
+		text-align: center;
+	  	background-color: #fff;
+	  	padding: 0px;
+	 	margin: 0px;
+}
+
+#sml {
+		font-family: "Oswald", sans-serif;
+		font-size: 10px;
+		font-weight: 400;
+		display: inline;
+/*		font-variant: small-caps;*/
+
+}
+
+#pic_a {
+	display: block;
+	float: left;
+	background-size: 260px;
+	text-align: left;
+	max-width: 80;
+	padding-right:45px;
+	padding-bottom: 30px;
+	clear: both;
+}
+
+
+#pic_b {
+	display: block;
+	float: left;
+	background-size: 260px;
+	text-align: left;
+	max-width: 80;
+	padding-right: 45px;
+	clear: none;
+}
+
+
+
+h5 {
+		font-family: "Oswald", sans-serif;
+		font-size: 12px;
+		letter-spacing: 1px;
+		font-weight: 400;
+		text-align: center;
+		display: block;
+		padding: 6px;
+	 	margin:6px;
+}
+
+#about {
+		font-family: "Libre Baskerville", serif;
+		font-weight: 400;
+		font-size: 13px;
+		line-height: 1.5em;
+		text-align: center;
+	  	background-color: #fff;
+	  	padding: 6px;
+	 	margin: 6px;
+		display: block;
+		float: left;
+		clear: both;
+}
+
+
+
+img {
+	margin: 20px
+	padding: 40px;
+	text-align: left;
+	max-width: 130px;
+	float: left;
+}
+
+footer {
+		display: block;
+		float: left;
+		clear:both;
+		margin-bottom: 20px;
+}
+
+
+
+
+
+
+
+
