@@ -1,7 +1,7 @@
 body {
 		font-family: "Libre Baskerville", serif;
 		font-weight: 400;
-		font-size: 12px;
+		font-size: 16px;
 		line-height: 1.5em;
 		text-align: left;
 	  	background-color: #fff;
@@ -9,34 +9,47 @@ body {
 	 	margin: 20px;
 }
 
+img {
+	display: block;
+	float: left;
+	background-size: 150px;
+	text-align: left;
+	max-width: 150px;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	margin: 0px;
+	float: left;
+	clear: both;
+
+}
 
 #logo {
 	display: block;
 	float: left;
-	background-size: 280px;
+	background-size: 195px;
 	text-align: left;
-	max-width: 150px;
+	max-width: 190px;
 	padding-right: 130px;
 	padding-bottom: 65px;
 	margin: 0px;
 }
 
-/*#wrapper {
+#wrapper {
 	width: 1080px;
 	margin: 0 auto;
-}*/
+}
 
 
 nav {
 		text-decoration: none;
 		color: #000000;
 		background-color: #fff;
-		font-size: 17px;
-		width: auto;
+/*		font-size: 16px;*/
+/*		width: auto;
 		font-family: "Oswald", sans-serif;
 		font-weight: 400;
 		letter-spacing: .5px;
-		text-align: center;	
+		text-align: center;	*/
 }
 
 
@@ -46,7 +59,7 @@ a {
 	font-family: "Oswald", sans-serif;
 	font-weight: 400;
 	letter-spacing: 1px;
-	padding: 15px;
+	padding: 16px;
 	text-align: center;	
 	display: block;
 	float: left;
@@ -70,13 +83,14 @@ a:hover {
 
 
 
-#date {
+.date {
 		font-family: "Oswald", sans-serif;
 		font-size: 10px;
 		font-weight: 400;
 		text-align: center;
 		display: block;
 		letter-spacing: 2px;
+		line-height: 1.5em;
 		text-align: left;
 		padding: 0px;
 	 	margin:0px;
@@ -92,10 +106,10 @@ h2,h3 {
 		padding-bottom: 1em;
 	 	margin: 0px;
 		text-align: left;
-		/*text-indent: 30px;*/
+		text-indent: 0px;
 		display: block;
-/*		float: left;
-		clear: both;*/
+		float: left;
+		clear: both;
 }
 
 
@@ -108,26 +122,19 @@ span {	font-family: "Oswald", sans-serif;
 }
 	
 
-/*#section {
+/*.section {
 		display: block;
 		text-align: left;
 		float: left;
 		clear: both;
 }*/
 
-.blog {
+#blog {
 		display: block;
 		text-align: left;
 		float: left;
-		/*clear: both;*/
-/*				font-family: "Libre Baskerville", serif;
-				font-weight: 400;
-				font-size: 14px;
-				line-height: 1.5em;
-				text-align: left;
-			  	background-color: #fff;
-			  	padding: 0px;
-			 	margin: 0px;*/
+		clear: both;
+		text-indent: 30px;
 	}
 
 
@@ -183,6 +190,7 @@ span {	font-family: "Oswald", sans-serif;
 		display: inline;
 /*		font-variant: small-caps;*/
 
+
 }
 
 #pic_a {
@@ -191,8 +199,8 @@ span {	font-family: "Oswald", sans-serif;
 	background-size: 260px;
 	text-align: left;
 	max-width: 80;
-	padding-right:45px;
-	padding-bottom: 30px;
+	padding-right:30px;
+	padding-bottom: 20px;
 	clear: both;
 }
 
@@ -203,13 +211,27 @@ span {	font-family: "Oswald", sans-serif;
 	background-size: 260px;
 	text-align: left;
 	max-width: 80;
-	padding-right: 45px;
-	clear: none;
+	padding-right: 30px;
+	padding-bottom: 45px;
+	clear: both;
 }
 
+#pic_c {
+	display: block;
+	float: center;
+	padding-bottom: 20px;
+	clear: both;
+	max-height: 30px;
+	background-size: 0px;
+	max-width: 30;
+	line-height: 1.75em;
+	padding-right: 30px;
+	padding-bottom: 30px;
+	
 
+}
 
-h5 {
+h5, footer {
 		font-family: "Oswald", sans-serif;
 		font-size: 12px;
 		letter-spacing: 1px;
@@ -236,19 +258,12 @@ h5 {
 
 
 
-img {
-	margin: 20px
-	padding: 40px;
-	text-align: left;
-	max-width: 130px;
-	float: left;
-}
-
 footer {
 		display: block;
 		float: left;
 		clear:both;
 		margin-bottom: 20px;
+		text-align: center;
 }
 
 
