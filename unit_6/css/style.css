@@ -26,11 +26,11 @@ img {
 #logo {
 	display: block;
 	float: left;
-	background-size: 195px;
+	background-size: 130px;
 	text-align: left;
-	max-width: 190px;
+	max-width: 130px;
 	padding-right: 130px;
-	padding-bottom: 65px;
+	padding-bottom: 0px;
 	margin: 0px;
 }
 
@@ -41,8 +41,7 @@ img {
 
 
 nav {
-		text-decoration: none;
-		color: #000000;
+		font-family: "Oswald", sans-serif;
 		background-color: #fff;
 /*		font-size: 16px;*/
 /*		width: auto;
@@ -57,8 +56,9 @@ a {
 	color: #000;
 	text-decoration: none;
 	font-family: "Oswald", sans-serif;
+	text-transform: uppercase;
 	font-weight: 400;
-	letter-spacing: 1px;
+	letter-spacing: .5px;
 	padding: 16px;
 	text-align: center;	
 	display: block;
@@ -66,7 +66,7 @@ a {
 }
 
 
-/*.clearfix:after 
+.clearfix:after 
 	{
 	visibility: hidden;
 	display: block;
@@ -74,7 +74,7 @@ a {
 	content: " ";
 	clear: both;
 	height: 0;
-}*/
+}
 
 
 a:hover { 
@@ -122,19 +122,15 @@ span {	font-family: "Oswald", sans-serif;
 }
 	
 
-/*.section {
-		display: block;
-		text-align: left;
-		float: left;
-		clear: both;
-}*/
+
 
 #blog {
 		display: block;
-		text-align: left;
 		float: left;
 		clear: both;
+		text-align: left;
 		text-indent: 30px;
+
 	}
 
 
@@ -152,7 +148,6 @@ span {	font-family: "Oswald", sans-serif;
 		display: block;
 		float: left;
 		clear: both;
-
 }
 
 
@@ -168,8 +163,8 @@ span {	font-family: "Oswald", sans-serif;
 	 	margin: 0px;
 		display: block;
 		float: left;
-		clear: both;
 }
+
 
 .small_blog {
 		font-family: "Libre Baskerville", serif;
@@ -189,47 +184,78 @@ span {	font-family: "Oswald", sans-serif;
 		font-weight: 400;
 		display: inline;
 /*		font-variant: small-caps;*/
-
-
 }
+
 
 #pic_a {
 	display: block;
 	float: left;
-	background-size: 260px;
+	clear: both;
+	background-size: 130px;
 	text-align: left;
 	max-width: 80;
-	padding-right:30px;
+	padding-left: 0px;
+	padding-right: 0px;
 	padding-bottom: 20px;
-	clear: both;
+	margin: 0px;
 }
 
 
 #pic_b {
 	display: block;
 	float: left;
-	background-size: 260px;
-	text-align: left;
-	max-width: 80;
-	padding-right: 30px;
-	padding-bottom: 45px;
 	clear: both;
+	background-size: 130px;
+	text-align: center;
+	max-width: 80;
+	padding-right: 0px;
+	padding-bottom: 45px;
+	margin: 0px;
 }
+
 
 #pic_c {
 	display: block;
-	float: center;
-	padding-bottom: 20px;
+	float: left;
 	clear: both;
+	padding-bottom: 0px;
+	max-height: 130px;
+	background-size: 0px;
+	max-width: 130;
+	line-height: 1.75em;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
+#fb {
+	display: block;
+	float: right;
+	clear: both;
+	text-align: center;
+	padding-bottom: 0px;
 	max-height: 30px;
 	background-size: 0px;
-	max-width: 30;
-	line-height: 1.75em;
-	padding-right: 30px;
-	padding-bottom: 30px;
-	
-
+	max-width: 30px;
+	line-height: 1em;
+	padding-right: 0px;
+	padding-bottom: 0px;
 }
+
+
+#mail {
+	display: block;
+	float: right;
+	clear: both;
+	text-align: center;
+	padding-bottom: 0px;
+	max-height: 30px;
+	background-size: 0px;
+	max-width: 30px;
+	line-height: 1em;
+	padding-right: 0px;
+	padding-bottom: 0px;
+}
+
 
 h5, footer {
 		font-family: "Oswald", sans-serif;
@@ -241,6 +267,7 @@ h5, footer {
 		padding: 6px;
 	 	margin:6px;
 }
+
 
 #about {
 		font-family: "Libre Baskerville", serif;
