@@ -10,33 +10,28 @@ body {
 }
 
 img {
-	display: block;
-	float: left;
-	background-size: 130px;
-	text-align: left;
 	width: 130px;
 	max-width: 130px;
-	padding-right: 130px;
-	padding-bottom: 0px;
-	margin: 0px;
 }
+
 
 #logo {
 	display: block;
 	float: left;
-	background-size: 130px;
+	clear: left;
+	background-size: 0px;
 	text-align: left;
-	width: 130px;
-	max-width: 130px;
-	padding-top: 20px;
-	padding-right: 130px;
-	padding-bottom: 0px;
-	margin: 0px;
+	width: 160px;
+/*	max-width: 130px;*/
+	padding-top: 10px;
+	padding-right: 60px;
+	padding-bottom: 60px;
+	margin: 5px;
 }
 
 #wrapper {
-	width: 1080px;
 	margin: 0 auto;
+	width: 1040px;
 }
 
 
@@ -58,9 +53,10 @@ a {
 	font-family: "Oswald", sans-serif;
 	text-transform: uppercase;
 	font-weight: 400;
-	letter-spacing: .5px;
+	font-size: 10pt;
+	letter-spacing: .1em;
 	padding: 16px;
-	padding-top: 20px;
+	padding-top: 10px;
 	text-align: center;	
 	display: block;
 	float: left;
@@ -83,34 +79,64 @@ a:hover {
 }
 
 
+#blogbooks {
+display: block;
+float: left;
+max-width: 720px;
+}
+
+
 
 .date {
 		font-family: "Oswald", sans-serif;
 		font-size: 10px;
 		font-weight: 400;
-		text-align: center;
-		display: block;
-		letter-spacing: 2px;
-		line-height: 1.5em;
 		text-align: left;
-		padding: 0px;
-	 	margin:0px;
+		display: block;
+		clear: none;
+		letter-spacing: 2px;
+		line-height: 2em;
+		text-align: left;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 380px;
 	 	float: left;
+	 	max-width: 60px;
+	 	margin-top: 0;
 }
+
+
+.date_b {
+		font-family: "Oswald", sans-serif;
+		font-size: 10px;
+		font-weight: 400;
+		text-align: left;
+		display: block;
+		clear: none;
+		letter-spacing: 2px;
+		line-height: 2em;
+		text-align: left;
+		padding-left: 20px;
+		padding-right: 20px;
+		padding-bottom: 200px;
+	 	float: left;
+	 	max-width: 60px;
+	 	margin-top: 0;
+}
+
 
 
 h2,h3 {
 		font-family: "Libre Baskerville", serif;
 		font-size: 19px;
 		font-weight: 400;
-		padding: 0px;
-		padding-bottom: 1em;
+		padding-bottom: 0px;
+		padding-left: 0px;
 	 	margin: 0px;
 		text-align: left;
 		text-indent: 0px;
 		display: block;
 		float: left;
-		clear: both;
 }
 
 
@@ -123,65 +149,50 @@ span {	font-family: "Oswald", sans-serif;
 }
 	
 
+p {
+padding-top: 10px;
+padding-bottom: 10px;
+
+}
 
 
-#blog {
-		display: block;
-		float: left;
-		clear: both;
-		text-align: left;
-		text-indent: 30px;
-
-	}
-
-
-
-#entrya {
+.entry {
 		font-family: "Libre Baskerville", serif;
 		font-weight: 400;
 		font-size: 16px;
 		line-height: 1.75em;
-		letter-spacing: .5px;
+		letter-spacing: .05em;
+		text-indent: 60px;
 		text-align: left;
 	  	background-color: #fff;
-	  	padding: 0px;
-	 	margin: 0px;
+	  	margin-left: 0px;
+	  	max-width: 860px;
 		display: block;
-		float: left;
-		clear: both;
+		padding-left: 30px;
+		padding-bottom: 30px;
+/*		float: left;*/
 }
 
-
-#entryb {
-		font-family: "Libre Baskerville", serif;
-		font-weight: 400;
-		font-size: 13px;
-		line-height: 1.75em;
-		letter-spacing: .5px;
-		text-align: left;
-	  	background-color: #fff;
-	  	padding: 0px;
-	 	margin: 0px;
-		display: block;
-		float: left;
-}
 
 
 .small_blog {
 		font-family: "Libre Baskerville", serif;
 		font-weight: 400;
-		font-size: 13px;
-		letter-spacing: 0.5px;
-		line-height: 1.5em;
+		font-size: 12.5px;
+		letter-spacing: .1em;
+		line-height: 2em;
 		text-align: center;
 	  	background-color: #fff;
-	  	padding: 0px;
-	 	margin: 0px;
+		padding-top: 10px;
+		padding-bottom: 10px;
+
+
 }
 
-#sml {
+.sml {
 		font-family: "Oswald", sans-serif;
 		font-size: 10px;
+		letter-spacing: .1em;
 		font-weight: 400;
 		display: inline;
 /*		font-variant: small-caps;*/
@@ -190,14 +201,14 @@ span {	font-family: "Oswald", sans-serif;
 
 #pic_a {
 	display: block;
-	float: left;
-	clear: both;
+/*	clear: none;*/
 	text-align: left;
 	max-width: 130px;
 	padding-left: 0px;
 	padding-right: 0px;
-	padding-bottom: 65px;
-	margin: 0px;
+	padding-bottom: 60px;
+	margin-bottom: 60px;
+	margin-top: -10px;
 }
 
 
@@ -208,32 +219,34 @@ span {	font-family: "Oswald", sans-serif;
 	text-align: left;
 	max-width: 130px;
 	padding-right: 0px;
-	padding-right: 0px;
-	padding-bottom: 45px;
+	padding-bottom: 0px;
 	margin: 0px;
+	margin-top: -14px;
 }
 
 
 #pic_c {
 	display: block;
-	float: left;
-	clear: both;
+/*	float: right;*/
+	text-align: center;
+	padding-top: 0px;
+	max-width: 90px;
+	padding-left: 66px;
+	padding-right: 60px;
 	padding-bottom: 0px;
-	max-width: 80px;
-	padding-right: 0px;
-	padding-bottom: 0px;
+
 }
+
 
 #fb {
 	display: block;
-	float: right;
-	clear: both;
+/*	float: right;*/
 	text-align: center;
-	padding-bottom: 0px;
-	max-height: 30px;
+	max-height: 26px;
 	background-size: 0px;
-	max-width: 30px;
+	max-width: 26px;
 	line-height: 1em;
+	padding-left: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
 }
@@ -241,28 +254,39 @@ span {	font-family: "Oswald", sans-serif;
 
 #mail {
 	display: block;
-	float: right;
-	clear: both;
-	text-align: center;
-	padding-bottom: 0px;
-	max-height: 30px;
+/*	float: right;*/
+	text-align: left;
+	max-height: 26px;
 	background-size: 0px;
-	max-width: 30px;
+	max-width: 26px;
 	line-height: 1em;
+	padding-left: 0px;
 	padding-right: 0px;
 	padding-bottom: 0px;
 }
 
 
-h5, footer {
+h5 {
 		font-family: "Oswald", sans-serif;
 		font-size: 12px;
-		letter-spacing: 1px;
+		letter-spacing: .25em;
 		font-weight: 400;
 		text-align: center;
 		display: block;
-		padding: 6px;
-	 	margin:6px;
+		padding-top: 0px;
+	 	margin: 0px;
+}
+
+h6 {
+		font-family: "Oswald", sans-serif;
+		font-size: 12px;
+		letter-spacing: .25em;
+		font-weight: 400;
+		text-align: center;
+		display: block;
+		padding-top: 24px;
+		padding-bottom: 0px;
+	 	margin: 0px;
 }
 
 
@@ -270,24 +294,37 @@ h5, footer {
 		font-family: "Libre Baskerville", serif;
 		font-weight: 400;
 		font-size: 13px;
-		line-height: 1.5em;
+		line-height: 2em;
 		text-align: center;
 	  	background-color: #fff;
-	  	padding: 6px;
-	 	margin: 6px;
+		padding-top: -30px;
+	 	margin: 0px;
 		display: block;
-		float: left;
-		clear: both;
+		float: right;
+		max-width: 240px;
 }
 
 
 
+hr {
+margin-top: 10px;
+margin-bottom: 16px;
+border-width: 1px;
+}
+
+
+}
+
 footer {
 		display: block;
 		float: left;
-		clear:both;
+		clear: both;
 		margin-bottom: 20px;
 		text-align: center;
+		font-family: "Libre Baskerville", serif;
+		font-weight: 400;
+		font-size: 11px;
+
 }
 
 
